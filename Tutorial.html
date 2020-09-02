@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Form</title>
+</head>
+<body style="background-size: cover; 
+background-position: center; color: white;
+background-color: rgb(68, 8, 124);
+ background-attachment: fixed; height: 270vh;">
+    <h1 style="text-align: center;">freeCodeCamp Survey Form</h1>
+    <p style="text-align: center;
+    font-style: italic;
+     font-size: 20px;">Thank you for taking the time to help us improve the platform</p>
+<div>
+  <!--opened a flex container and styled all the properties inside-->
+    <div class="flex-container"  style="display: flex;
+     width: 780px;margin: auto;
+     justify-content: center;
+    background-color: rgb(38,38,70); height:270vh;
+    border-radius: 5px; line-height: 35px;">
+      <form>
+        <label style="font-size: 25px;"><br>Name<br></label>
+        <input type="text" style="height: 40px; width: 690px;
+         border-radius: 8px;
+         border-style:6px solid  purple;"  placeholder="  Enter your Name">
+         <labe style="font-size: 25px;"><br><br>Email</br></label>
+         <input type="email" style="height: 40px; width: 690px;
+         border-radius: 8px;
+         border-style:6px solid  purple;" placeholder="  Enter your Email"><br><br>
+          <labe style="font-size: 25px;">Age<span style="font-size: 18px;">(optional)</span><br></label>
+            <input type="number" style="height: 40px; width: 690px;
+            border-radius: 8px;
+            border-style:6px solid  purple;" placeholder="  Age" max="70" min="5"><br><br>
+             <p>Which option best describes your current role?</p>
+             <select style="width:690px; height: 40px; border-radius: 8px;">
+               <option disabled selected value>select current role?</option>
+               <option>Student</option>
+               <option>full time job</option>
+               <option>full time learner</option>
+               <option>prefer not say</option>
+               <option>others</option>
+             </select>
+             <p>Would you recommend freeCodeCamp to a friend?</p>
+             <input type="radio">
+  <label>Definitely</label><br>
+  <input type="radio">
+  <label >Maybe</label><br>
+  <input type="radio">
+  <labe>Not sure</label>
+    <p>What is your favorite feature of freeCodeCamp?</p>
+    <!--i gave this select tag a seperate styling-->
+    <select style="width:690px; height: 40px; border-radius: 8px;">
+        <option disabled selected value>  select an option</option>
+        <option>challenges</option>
+        <option>projects</option>
+        <option>community</option>
+        <option>open source</option>
+    </select>
+    <!--i opened a new div so that i an style the content properly-->
+    <div style="line-height: 35px;">
+      <p>What would you like to see improved? <span
+        style="font-size: 18px;">(Check all that apply)</span>
+    </p>
+        <input type="checkbox">
+        <label>Front end-projects</label><br>
+        <input type="checkbox">
+        <label>back end-projects</label><br>
+        <input type="checkbox">
+        <label>Data visualization</label><br>
+        <input type="checkbox">
+        <label>challenges</label><br>
+        <input type="checkbox">
+        <label>open source community</label><br>
+        <input type="checkbox">
+        <label>Gitter help rooms</label><br>
+        <input type="checkbox">
+        <label>videos</label><br>
+        <input type="checkbox">
+        <label>City Meetups</label><br>
+        <input type="checkbox">
+        <label>Wiki</label><br>
+        <input type="checkbox">
+        <label>Forum</label><br>
+        <input type="checkbox">
+        <label>Additional Courses</label>
+        <!--start that of the textarea-->
+        <p>Any comments or suggestions?</p>
+        <textarea name="message" rows="10" cols="30" 
+        style=" width:690px;
+        border-radius: 4px;" placeholder="  Enter your comment here..."></textarea>
+  <br><br>
+  <input type="submit" style="background: #37af65;
+   border-radius: 3px;width: 690px; height: 50px; cursor: pointer; padding: 10px;
+   color:white;font-size: 18px;">
+    </div>
+      </form>
+    </div>
+</div>
+</body>
+</html>
